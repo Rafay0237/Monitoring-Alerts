@@ -2,7 +2,7 @@ const crypto = require("crypto");
 const Alert = require("../models/alerts");
 const sendAlertEmail = require("../config/nodemailer");
 
-// 1. Create Alert
+// 1. Create Alert Settings
 const createAlert = async (req, res) => {
   const { projectName, email, limit } = req.body;
 
