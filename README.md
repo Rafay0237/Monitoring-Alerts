@@ -30,10 +30,7 @@ Contributions are welcome, whether it’s fixing bugs, suggesting improvements, 
 
 ## Tech Stack
 
-- **Frontend:** Vite, React, TypeScript  
-- **Backend:** Node.js, Express  
-- **Database:** MongoDB  
-- **Email Notifications:** Configurable SMTP/email service  
+- Node.js, Express, MongoDB, NodeMailer
 
 ---
 
@@ -54,3 +51,4 @@ https://github.com/Rafay0237/Alerts-Monitor
 
 # Start the backend server
 npm run dev
+
